@@ -34,9 +34,11 @@ include(GoogleTest)
 include_directories(${PROJECT_SOURCE_DIR}/)
 
 set(SOURCES
+  
 )
 
 set(LIBRARIES
+  pthread
 )
 
 # Main Build
